@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import TaskForm from '@/components/TaskForm'
-import TaskFormCustom from '@/components/TaskForm'
+//import TaskForm from '@/components/TaskForm'
+import TaskFormCustom from '@/components/TaskFormCustom'
 import TaskList from '@/components/TaskList'
 
 const TasksPage = () => {

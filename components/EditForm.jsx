@@ -2,7 +2,7 @@
 import React from 'react'
 import { editTask } from '@/utils/actions'
 
-const EditFrom = ({ task }) => {
+const EditForm = ({ task }) => {
 	const { id, completed, content } = task
 	return (
 		<form
@@ -38,4 +38,4 @@ const EditFrom = ({ task }) => {
 	)
 }
 
-export default EditFrom
+export default EditForm
